@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="dia" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#3a4159"/><stop offset="1" stop-color="#10131c"/></radialGradient>
+<pattern id="q" width="120" height="120" patternUnits="userSpaceOnUse" patternTransform="rotate(0)">
+<rect width="120" height="120" fill="#0b0d14"/>
+<path d="M60,4 L116,60 L60,116 L4,60 Z" fill="url(#dia)"/>
+<path d="M60,14 L106,60 L60,106 L14,60 Z" fill="none" stroke="#9fb0ff" stroke-opacity=".8" stroke-width="1.4" stroke-dasharray="6 5"/>
+<circle cx="60" cy="60" r="2.5" fill="#05060a"/><circle cx="0" cy="0" r="3" fill="#05060a"/><circle cx="120" cy="0" r="3" fill="#05060a"/><circle cx="0" cy="120" r="3" fill="#05060a"/><circle cx="120" cy="120" r="3" fill="#05060a"/>
+</pattern>
+<radialGradient id="vig" cx=".5" cy=".4" r=".8"><stop offset=".3" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".85"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#q)"/><rect width="800" height="600" fill="url(#beam)"/><rect width="800" height="600" fill="url(#vig)"/>
+<path d="M0,330 H800" stroke="#000" stroke-opacity=".5" stroke-width="14"/><path d="M0,322 H800 M0,338 H800" stroke="#9fb0ff" stroke-width="1.4" stroke-dasharray="7 5" stroke-opacity=".9"/>
+</svg>
