@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | POSH IMPERIAL</title>
+<meta name="description" content="Contact POSH IMPERIAL on WhatsApp, phone or email for detailing product advice, prices and availability.">
+<meta name="theme-color" content="#F3F4F6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | POSH IMPERIAL">
+<meta property="og:description" content="Contact POSH IMPERIAL on WhatsApp, phone or email for detailing product advice, prices and availability.">
+<!-- After you know your final web address, change this to the full URL, e.g. https://yourname.github.io/repo/images/og-image.jpg -->
+<meta property="og:image" content="images/og-image.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <h1>Contact</h1>
+    <p class="lede">The fastest way to reach us is WhatsApp. Send your car model and what you need, and we'll reply with options and prices.</p>
+  </div>
+</section>
+<section class="section-tight" style="padding-top:0">
+  <div class="container contact-grid">
+    <div>
+      <dl class="details">
+        <div><dt>WhatsApp</dt><dd><a href="#" data-link="wa">Start a chat</a></dd></div>
+        <div><dt>Phone</dt><dd><a href="#" data-link="phone"></a></dd></div>
+        <div><dt>Email</dt><dd><a href="#" data-link="email"></a></dd></div>
+        <div><dt>Address</dt><dd data-site="address"></dd></div>
+        <div><dt>Hours</dt><dd data-site="hours"></dd></div>
+      </dl>
+      <iframe class="map" id="map-frame" title="Map showing our location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" hidden></iframe>
+    </div>
+    <form class="form" id="contact-form" novalidate>
+      <div class="row2">
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="f-phone">Phone (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="f-car">Car make and model</label><input id="f-car" name="car" placeholder="e.g. Hyundai Creta 2022"></div>
+        <div class="field"><label for="f-int">I'm looking for</label><select id="f-int" name="interest"><option value="">Not sure yet</option><option>Paint correction</option><option>Coatings & protection</option><option>Wash & decontamination</option><option>Microfibre & tools</option><option>Wheels & tyres</option><option>Interior & glass</option></select></div>
+      </div>
+      <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Tell us what you want to fix or improve"></textarea></div>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Send on WhatsApp</button>
+        <button class="link-under" type="button" id="mail-btn" style="background:none;border-top:0;border-left:0;border-right:0;cursor:pointer;font-family:inherit;font-size:1rem;color:inherit">Send by email instead</button>
+      </div>
+      <p class="form-note">This opens WhatsApp or your email app with your message ready to send. Nothing is stored on this website.</p>
+      <p class="form-msg" id="form-msg" role="status"></p>
+    </form>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="container">
+    <h2 style="margin-bottom:32px">Common questions</h2>
+    <div class="faq">
+      <details><summary>How do I place an order?</summary><p>Message us on WhatsApp with the products you want. We confirm price, stock and delivery, then share payment details.</p></details>
+      <details><summary>Are the products genuine?</summary><p>Yes. We source from the brands and their distributors. Ask us if you'd like details on where a particular product comes from.</p></details>
+      <details><summary>Which polish and pad should I use?</summary><p>It depends on your paint hardness, the defects and your machine. Send us your car model and a photo of the paint and we'll suggest a combination.</p></details>
+      <details><summary>How long does delivery take?</summary><p>We dispatch in <span data-site="dispatchTime">1 to 2 working days</span>. Delivery usually takes <span data-site="deliveryTime">3 to 7 working days</span>. See <a href="shipping-returns.html">Shipping &amp; returns</a>.</p></details>
+      <details><summary>Can I return a product?</summary><p>Unopened items can be returned within <span data-site="returnDays">7</span> days. Damaged or wrong items are always covered. Full details are on our <a href="shipping-returns.html">Shipping &amp; returns</a> page.</p></details>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer id="site-footer"></footer>
+<script src="js/config.js"></script>
+<script src="js/brands.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

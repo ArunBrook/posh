@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brands | POSH IMPERIAL</title>
+<meta name="description" content="Detailing brands we supply: RUPES, Mafra, Menzerna, Vonixx, 3M, Koch-Chemie, Turtle Wax, Gyeon, CarPro and more.">
+<meta name="theme-color" content="#F3F4F6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brands | POSH IMPERIAL">
+<meta property="og:description" content="Detailing brands we supply: RUPES, Mafra, Menzerna, Vonixx, 3M, Koch-Chemie, Turtle Wax, Gyeon, CarPro and more.">
+<!-- After you know your final web address, change this to the full URL, e.g. https://yourname.github.io/repo/images/og-image.jpg -->
+<meta property="og:image" content="images/og-image.jpg">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preload" href="fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <h1>Brands</h1>
+    <p class="lede">The polishing, chemistry and tool brands we supply. Don't see the one you want? Ask us.</p>
+  </div>
+</section>
+<section class="section-tight" style="padding-top:0">
+  <div class="container">
+    <div class="tools">
+      <div class="chips" id="brand-chips" role="group" aria-label="Filter brands by type"></div>
+      <div class="search"><label class="sr-only" for="brand-search">Search brands</label><input id="brand-search" type="search" placeholder="Search brands" autocomplete="off"></div>
+    </div>
+    <p class="count" id="brand-count" aria-live="polite"></p>
+    <div class="brand-grid" id="brand-grid"></div>
+    <div class="empty" id="brand-empty" hidden>
+      <h3>No brands match that search</h3>
+      <p class="muted">Try a different type or clear the search.</p>
+      <button type="button" class="btn btn-primary" id="brand-reset">Show all brands</button>
+    </div>
+    <p class="legal-note">All brand names and trademarks belong to their respective owners. Listing a brand here does not imply endorsement by, or an official relationship with, that brand.</p>
+  </div>
+</section>
+
+</main>
+<footer id="site-footer"></footer>
+<script src="js/config.js"></script>
+<script src="js/brands.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
